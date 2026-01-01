@@ -1,0 +1,78 @@
+/* style.css */
+.root {
+    -fx-background-color: #F9FFF9; /* Pale eco-green */
+    -fx-font-family: "Verdana", sans-serif; /* Approachable and clear */
+}
+/* style.css */
+.root {
+    -fx-background-color: #F9FFF9; /* Natural tone */
+    -fx-font-family: "Verdana", sans-serif; /* Approachable font */
+}
+
+.city-header {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2D5A27;
+    -fx-padding: 10;
+}
+
+.temp-text {
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3E2723; /* Earth tone */
+}
+
+.eco-icon {
+    -fx-fill: #4CAF50; /* Leaf Green */
+}
+
+/* Enhanced Button Styling */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+/* Hover Effect for better UX */
+.button:hover {
+    -fx-background-color: #388E3C;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #A5D6A7;
+}
+
+.forecast-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555;
+}
+.city-header {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2D5A27; /* Forest Green */
+}
+
+.temp-text {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3E2723; /* Earthy Brown */
+}
+
+.eco-icon {
+    -fx-fill: #4CAF50; /* Vibrant Leaf Green */
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+}
+
+.button:disabled {
+    -fx-opacity: 0.5;
+}
